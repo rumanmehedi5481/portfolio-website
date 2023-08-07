@@ -1,0 +1,324 @@
+body {
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1300px;
+}
+
+/* *************************Topbar-section***************** */
+
+a {
+    text-decoration: none;
+}
+.topbar-parrents {
+    display: flex;
+    padding: 17px 20px;
+    background: #ebf4f6;
+}
+.nav li {
+    list-style: none;
+    float: left;
+    padding-top: 10px;
+    margin: 0px 25px;
+    font-size: 19px;
+    color: #343352;
+}
+.nav li a:hover {
+    color: red;
+    transition: 0.3s;
+}
+.topbar-parrents .btn {
+    border: 2px solid tomato;
+    border-radius: 10px;
+    background: tomato;
+    
+}
+.topbar-parrents .btn p {
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
+    padding: 11px 26px;
+}
+.topbar-parrents .btn:hover {
+    background: #087591;
+    transition: 0.5s;
+}
+
+/* ***********************************header Section **************************/
+.header-parrents {
+    text-align: center;
+    background: #ebf4f6;
+    padding: 1px;
+}
+.header-parrents h1 {
+    font-size: 64px;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+.header-parrents p {
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+.header-parrents .btn {
+    border: 1px solid tomato;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.header-parrents .btn a {
+    color: rebeccapurple;
+}
+.header-parrents .btn:hover {
+    
+    background: tomato;
+    color: white;
+    transition: 0.6s;
+}
+
+/* *********Banner Section******* */
+.banner {
+    background: #ebf4f6;
+}
+.banner img {
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    margin: 20px;
+}
+/* **********************Profile Section*************** */
+.profile-parrents {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.profile-parrents .content h1 {
+    font-size: 47px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: #343352;
+}
+.profile-parrents .content h5 {
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.profile-parrents .content a {
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    background: tomato;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.profile-parrents .content a:hover {
+    background: #087591;
+    color: tomato;
+    font-weight: 900;
+    transition: 0.6s;
+}
+
+/* **************Increase Section**************** */
+.writing {
+    text-align: center;
+}
+
+.writing h4 {
+    font-size: 20px;
+    color: tomato;
+}
+.writing h1 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #343352;
+}
+.writing p {
+    font-size: 18px;
+    font-weight: 500;
+}
+/* *******************************Card Section*************************** */
+.card{
+    padding: 100px;
+    background: rgb(255, 255, 255);
+    
+}
+.card-parrents {
+    display: flex;
+    justify-content: space-around;
+}
+.card-parrents .first-card {
+    border-radius: 8px;
+    padding: 22px;
+    border: 1px solid rgb(28, 199, 230);
+    font-size: 18px;
+    
+}
+.card-parrents .first-card:hover{
+box-sizing: border-box;
+    box-shadow: 10px 5px  19px 6px;
+    transition: 0.6s;
+    cursor: pointer;
+}    
+.card-parrents .secoendnd-card {
+    border-radius: 8px;
+    padding: 22px;
+    border: 1px solid rgb(28, 199, 230);
+    font-size: 18px;
+}
+.card-parrents .secoendnd-card:hover{
+   box-sizing: border-box;
+   box-shadow: 10px 5px  19px 6px;
+   transition: 0.6s;
+   cursor: pointer;
+}
+.card-parrents .third-card{
+    border-radius: 8px;
+    padding: 22px;
+    border: 1px solid rgb(28, 199, 230);
+    font-size: 18px;
+}
+.card-parrents .third-card:hover{
+    box-sizing: border-box;
+    box-shadow: 10px 5px  19px 6px;
+    transition: 0.6s;
+    cursor: pointer;
+ }
+
+.card-parrents .icon {
+    border: 1px solid rgb(28, 199, 230);
+    display: inline-block;
+    padding: 5px;
+    border-radius: 20px;
+}
+.card-parrents {
+    box-sizing: border-box;
+    box-shadow: #087591;
+}
+
+
+/* ***********************Services Section************************** */
+.ser-content{
+    text-align: center;
+    padding-bottom: 50px;
+    color: #343352;
+}
+.ser-content h1{
+    font-size: 65px;
+    font-weight: 700;
+   
+}
+.ser-content p{
+    font-size: 18px;
+}
+.services-parrents .img{
+    margin: 5px 30px;
+    
+    
+}
+
+/* *****************clicent Section********************* */
+.clicent-parrents{
+    padding-bottom: 100px;
+}
+.clicent-parrents h1{
+ font-size: 65px;
+ color: #343352;
+ text-align: center;
+}
+.clicent-parrents .img {
+    display: flex;
+    justify-content: center;
+    
+}
+.clicent-parrents .img img{
+    margin-left: 50px;
+    cursor: pointer;
+    border: 2px solid tomato;
+}
+.clicent-parrents .img .img1{
+    margin-left: 10px;
+    
+
+}
+
+
+/* **************************Laptop Section****************** */
+.laptop .laptop-parrents{
+    padding-top: 0;
+    margin-left:230px;
+}
+
+/* ************************From Section **********************/
+.from-parrents h1{
+    color: #343352;
+    font-size: 50px;
+    text-align: center;
+}
+.from-parrents h4{
+    color: tomato;
+    font-size: 25px;
+    text-align: center;
+}
+.from-parrents {
+    display: flex;
+    justify-content: center;
+}
+.from-parrents input[type="text"] {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 165px;
+    font-size: 10px;
+}
+.from-parrents input[type="mailto"] {
+    padding: 15px;
+    font-size: 10px;
+    padding-top: 12;
+    padding-right: 160px;
+}
+.from-parrents label{
+    font-size: 15px;
+}
+.from-parrents .filup {
+    border: 1px solid rgb(30, 168, 231);
+    padding: 40px 70px;
+    margin-top: -35px;
+}
+.from-parrents .filup a{
+    border: 1px solid tomato;
+    padding: 15px 120px;
+     background: tomato;
+     border-radius: 15px;
+     color: white;
+     font-size: 20px;
+}
+.from-parrents .filup a:hover{
+    background: #D2E9E9;
+    color: #40128B;
+    font-weight: 800;
+    transition: 0.6s;
+}
+
+/* *********Footer Parrents***************** */
+.footer-parrents{
+    height: 100px;
+    width: 100%;
+    background: #087591;
+    color: #D2E9E9;
+    padding-bottom: 40px;
+}
+
+
+.footer-parrents .fotter-content {
+    padding-top: 35px;
+    font-size: 25px;
+    color: white;
+    
+}
+.footer-parrents .fotter-content a{
+    color: white;
+}
+.footer-parrents .fotter-content a:hover{
+    color: tomato;
+}
